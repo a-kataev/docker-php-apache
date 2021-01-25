@@ -81,7 +81,7 @@ build-php-apache-ext-7.3:
   <<: *build-log-artifacts
   rules:
     - changes:
-        - php-apache-7.4/Dockerfile
+        - php-apache-7.3/Dockerfile
 
 .php-apache-7-4: &php-apache-7-4
   variables:

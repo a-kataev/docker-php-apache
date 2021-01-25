@@ -1,4 +1,4 @@
-FROM php:7.4.13-apache-buster
+FROM php:7.4.14-apache-buster
 
 RUN set -x && \
 #
